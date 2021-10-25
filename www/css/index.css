@@ -1,0 +1,105 @@
+body {
+    background: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 10vw;
+    font-size: 8vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.display-turn {
+    margin-top: 5vw;
+    font-size: 6vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 30vw 30vw 30vw;
+    width: 90vw;
+    margin: 5vw 5vw 0 5vw;
+}
+
+.tile {
+    border: 1vw black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20vw;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.reset {
+    padding: 10vw;
+}
+
+#reset-button {
+    width: 30vw;
+    height: 10vw;
+    border-radius: 25vw;
+    background-color: darkorange;
+    border: silver 1vw outset;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#zero {
+    border-top: 2vw;
+    border-left: 2vw;
+    border-color: black;
+    border-style: solid;   
+}
+
+#one {
+    border-top: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
+
+#two {
+    border-top: 2vw;
+    border-right: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
+
+#three {
+    border-left: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
+
+#five {
+    border-right: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
+
+#six {
+    border-bottom: 2vw;
+    border-left: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
+
+#seven {
+    border-bottom: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
+
+#eight {
+    border-bottom: 2vw;
+    border-right: 2vw;
+    border-color: black;
+    border-style: solid;  
+}
